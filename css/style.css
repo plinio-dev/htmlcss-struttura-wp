@@ -3,13 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* contenitore principale centrato */
 .wrapper {
-  background-color: lightgrey;
-  width: 1000px;
+  width: 1400px;
   margin: auto;
 }
-
+/* intestazione */
 header {
   width: 100%;
   height: 150px;
@@ -25,6 +24,7 @@ header {
 header, .hero {
   margin-bottom: 25px;
 }
+/* sezione centrale  */
 
 section {
   width: 100%;
@@ -40,19 +40,19 @@ section {
 
 .row {
   width: 100%;
-  height: 625px;
+  height: 825px;
 }
 
 .col-left, .col-right {
   float: left;
   width: 25%;
-  height: 600px;
+  height: 800px;
   background-color: lightblue;
 }
 
 .col-center {
   float: left;
-  height: 600px;
+  height: 800px;
   width: 46%;
   background-color: lightblue;
   margin: 0 2%;
@@ -62,4 +62,11 @@ section {
   content: "";
   display: inline;
   clear: both;
+}
+/* end sezione centrale  */
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: violet;
 }
