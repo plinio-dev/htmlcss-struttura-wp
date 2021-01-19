@@ -3,6 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-
+.wrapper {
+  background-color: lightgrey;
+  width: 1000px;
+  margin: auto;
+}
+header {
+  width: 100%;
+  height: 150px;
+  background-color: pink;
+}
+.hero {
+  width: 100%;
+  height: 450px;
+  background-color: yellow;
+}
+header, .hero {
+  margin-bottom: 25px;
 }
