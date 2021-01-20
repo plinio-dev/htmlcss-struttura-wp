@@ -5,7 +5,7 @@
 }
 /* contenitore principale centrato */
 .wrapper {
-  width: 1400px;
+  width: 80%;
   margin: auto;
 }
 /* intestazione */
@@ -60,7 +60,7 @@ section {
 
 .clearfix::after {
   content: "";
-  display: inline;
+  display: block;
   clear: both;
 }
 /* end sezione centrale  */
@@ -68,5 +68,6 @@ section {
 footer {
   width: 100%;
   height: 100px;
+  margin-top: 15px;
   background-color: violet;
 }
